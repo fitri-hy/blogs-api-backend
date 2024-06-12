@@ -1,0 +1,19 @@
+<%- include('header') %>
+
+<section class="px-4 py-6">
+  <h1 class="font-bold text-xl text-gray-800">Add Post</h1>
+  <div class="py-4">
+		<form action="/create" method="post" enctype="multipart/form-data">
+			<div class="flex items-center justify-between gap-12 mb-4">
+				<input class="w-full p-2 rounded border" type="text" name="title" placeholder="Title" required>
+				<input class="p-2 rounded border" type="text" name="category" placeholder="Category" required>
+			</div>
+			<textarea id="create-content" name="content" placeholder="Content" required></textarea>
+			<div class="flex items-center justify-between gap-4">
+				<input class="mt-4 bg-white rounded p-2 border" type="file" name="image">
+				<button class="bg-green-500 px-4 py-2 text-white rounded" type="submit">Create</button>
+			</div>
+		</form>
+  <div>
+</section>
+<%- include('footer') %>

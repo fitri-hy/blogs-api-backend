@@ -1,65 +1,11 @@
 {
-    "post": [
-        {
-            "id": "1",
-            "title": "Tips Menulis Blog yang Menarik",
-            "content": "Menulis blog adalah cara yang bagus untuk berbagi pengetahuan dan pengalaman Anda dengan dunia. Berikut adalah beberapa tips untuk menulis blog yang menarik:",
-            "category": "HTML",
-            "author": "Jane Smith",
-            "date": "2023-03-10"
-        },
-        {
-            "id": "2",
-            "title": "Tips Menulis Blog yang Menarik",
-            "content": "Menulis blog adalah cara yang bagus untuk berbagi pengetahuan dan pengalaman Anda dengan dunia. Berikut adalah beberapa tips untuk menulis blog yang menarik:",
-            "author": "Jane Smith",
-            "date": "2023-03-10"
-        },
-        {
-            "id": "3",
-            "title": "Panduan Pemula untuk SEO",
-            "content": "SEO (Search Engine Optimization) adalah proses mengoptimalkan situs web Anda agar mendapat peringkat lebih tinggi di halaman hasil mesin pencari (SERP).",
-            "author": "John Doe",
-            "date": "2023-03-12"
-        },
-        {
-            "id": "4",
-            "title": "Cara Membangun Situs Web yang Efektif",
-            "content": "Membangun situs web yang efektif sangat penting untuk bisnis apa pun. Berikut adalah beberapa tips untuk membangun situs web yang efektif:",
-            "author": "Jane Smith",
-            "date": "2023-03-14"
-        },
-        {
-            "id": "5",
-            "title": "Tren Pemasaran Digital Terbaru",
-            "content": "Pemasaran digital terus berkembang, dengan tren baru bermunculan setiap saat. Berikut adalah beberapa tren pemasaran digital terbaru:",
-            "author": "John Doe",
-            "date": "2023-03-16"
-        },
-        {
-            "id": "6",
-            "title": "Belajar Express.js untuk Pemula",
-            "content": "Express.js adalah framework web yang populer untuk Node.js. Framework ini memudahkan pembuatan aplikasi web yang cepat, skalabel, dan aman. Dalam tutorial ini, kita akan mempelajari dasar-dasar Express.js dan cara menggunakannya untuk membuat aplikasi web sederhana."
-        },
-        {
-            "id": "7",
-            "title": "Membuat API REST dengan Express.js",
-            "content": "API REST (Representational State Transfer) adalah antarmuka pemrograman aplikasi yang digunakan untuk mengakses dan memodifikasi data melalui HTTP. Dalam tutorial ini, kita akan mempelajari cara membuat API REST sederhana menggunakan Express.js."
-        },
-        {
-            "id": "8",
-            "title": "Menambahkan Autentikasi ke Aplikasi Express.js",
-            "content": "Autentikasi adalah proses memverifikasi identitas pengguna. Dalam tutorial ini, kita akan mempelajari cara menambahkan autentikasi ke aplikasi Express.js menggunakan Passport.js, middleware yang populer untuk autentikasi."
-        },
-        {
-            "id": "9",
-            "title": "Menggunakan MongoDB dengan Express.js",
-            "content": "MongoDB adalah database NoSQL yang populer. Dalam tutorial ini, kita akan mempelajari cara menggunakan MongoDB dengan Express.js untuk menyimpan dan mengambil data."
-        },
-        {
-            "id": "10",
-            "title": "Membuat Aplikasi Blog dengan Express.js dan MongoDB",
-            "content": "Dalam tutorial ini, kita akan mempelajari cara membuat aplikasi blog sederhana menggunakan Express.js dan MongoDB. Kita akan membahas cara membuat model data, membuat rute, dan menampilkan data di halaman web."
-        }
-    ]
+  "post": [
+    {
+      "id": "1",
+      "title": "Panduan Lengkap Menginstal XAMPP di Windows",
+      "category": "Tutorial",
+      "content": "<p>XAMPP adalah paket perangkat lunak sumber terbuka yang memungkinkan Anda untuk membuat dan menjalankan lingkungan server web lokal di komputer Windows Anda. Dengan XAMPP, Anda dapat menjalankan aplikasi web yang memerlukan server Apache, database MySQL, dan bahasa pemrograman PHP. Berikut adalah panduan langkah demi langkah untuk menginstal XAMPP di Windows.</p>\r\n\r\n<h3>Langkah 1: Unduh XAMPP</h3>\r\n\r\n<p>Langkah pertama adalah mengunduh file instalasi XAMPP dari situs web resminya. Kunjungi situs web XAMPP dan unduh versi terbaru yang sesuai dengan sistem operasi Windows Anda (32-bit atau 64-bit).</p>\r\n\r\n<h3>Langkah 2: Jalankan Instalator</h3>\r\n\r\n<p>Setelah selesai mengunduh, buka file instalasi XAMPP yang baru Anda unduh. Klik dua kali pada file untuk memulai proses instalasi. Anda mungkin akan diminta untuk memberikan izin administrator untuk melanjutkan.</p>\r\n\r\n<h3>Langkah 3: Pilih Komponen yang Ingin Diinstal</h3>\r\n\r\n<p>Selanjutnya, Anda akan disajikan dengan jendela instalator yang memungkinkan Anda memilih komponen yang ingin Anda instal. Pastikan opsi untuk Apache, MySQL, dan PHP telah dicentang, karena ini adalah komponen utama yang diperlukan untuk menjalankan server web.</p>\r\n\r\n<h3>Langkah 4: Tentukan Lokasi Instalasi</h3>\r\n\r\n<p>Pilih lokasi di mana Anda ingin menginstal XAMPP di komputer Anda. Anda dapat memilih lokasi default atau memilih lokasi khusus sesuai kebutuhan Anda. Klik &quot;Next&quot; untuk melanjutkan.</p>\r\n\r\n<h3>Langkah 5: Selesaikan Instalasi</h3>\r\n\r\n<p>Setelah menentukan lokasi instalasi, Anda akan melihat ringkasan pengaturan instalasi. Klik &quot;Next&quot; untuk mulai proses instalasi. Tunggu beberapa saat hingga proses instalasi selesai.</p>\r\n\r\n<h3>Langkah 6: Mulai Server</h3>\r\n\r\n<p>Setelah instalasi selesai, Anda akan ditawari untuk memulai server Apache dan MySQL. Pastikan kedua kotak centang dicentang, lalu klik &quot;Finish&quot; untuk menyelesaikan proses instalasi.</p>\r\n\r\n<h3>Langkah 7: Verifikasi Instalasi</h3>\r\n\r\n<p>Untuk memastikan bahwa XAMPP telah diinstal dengan benar, buka peramban web Anda dan ketikkan &quot;localhost&quot; dalam bilah alamat. Jika instalasi berhasil, Anda akan melihat halaman selamat datang XAMPP.</p>\r\n\r\n<h3>Kesimpulan</h3>\r\n\r\n<p>Dengan mengikuti langkah-langkah di atas, Anda sekarang telah berhasil menginstal XAMPP di komputer Windows Anda. Anda sekarang siap untuk mulai mengembangkan dan menjalankan aplikasi web lokal menggunakan Apache, MySQL, dan PHP.</p>\r\n\r\n<p>Sekarang Anda memiliki platform yang kuat untuk mengembangkan dan menguji situs web dan aplikasi web tanpa perlu koneksi internet. Selamat mencoba!</p>\r\n",
+      "image": "1718157871142.jpg"
+    }
+  ]
 }

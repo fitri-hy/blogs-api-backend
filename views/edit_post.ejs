@@ -1,0 +1,19 @@
+<%- include('header') %>
+
+<section class="px-4 py-6">
+  <h1 class="font-bold text-xl text-gray-800">Update Post</h1>
+  <div class="py-4">
+	<form action="/update/<%= postData.id %>" method="POST" enctype="multipart/form-data">
+		<div class="flex items-center justify-between gap-12 mb-4">
+			<input class="w-full p-2 rounded border" type="text" id="title" name="title" value="<%= postData.title %>" required><br><br>
+			<input class="p-2 rounded border" type="text" id="category" name="category" value="<%= postData.category %>" required><br><br>
+		</div>
+		<textarea id="update-content" name="content" rows="4" cols="50" required><%= postData.content %></textarea><br><br>
+		<div class="flex items-center justify-between gap-4">
+			<input class="mt-4 bg-white rounded p-2 border" type="file" id="image" name="image"><br><br>
+			<input type="hidden" name="id" value="<%= postData.id %>">
+			<button class="bg-green-500 px-4 py-2 text-white rounded" type="submit">Update</button>
+		</div>
+</form>
+
+<%- include('footer') %>
